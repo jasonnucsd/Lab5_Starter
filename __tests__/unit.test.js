@@ -11,7 +11,7 @@ import {
 // TODO - Part 2
 //Phone number
 test('Pass valid length', () => {
-  expect(isPhoneNumber("427-8745")).toBe(true);
+  expect(isPhoneNumber("427-874")).toBe(true);
 });
 test('Pass with area code', () => {
   expect(isPhoneNumber("(455) 427-8746")).toBe(true);
